@@ -1,0 +1,319 @@
+/* commom style */
+
+*{
+	margin:0px;
+	padding:0px;
+	font-family: 'Lato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+.main-header{
+    background-color: #0070c0;
+    padding: 5px 0;
+    font-size: 12px; 
+    color: #fff;
+}
+.main-header ul{
+    margin: 0;
+}
+.main-header li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.main-header li a{
+    color: #fff;
+}
+.main-header .social-icons{
+    text-align: right;
+}
+.logo img{
+    width: 25%;
+}
+header ul{
+    margin: 0;
+}
+header ul li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header ul li a{
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+
+.owl-dots{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.section1 .item {
+    height: 75vh;
+    position: relative;
+  }
+  .section1 .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .section1 .item .cover {
+    padding: 75px 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+  }
+  .section1 .item .cover .header-content {
+    position: relative;
+    padding: 56px;
+    overflow: hidden;
+  }
+  .section1 .item .cover .header-content .line {
+    content: "";
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border: 9px solid #fff;
+    -webkit-clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+    clip-path: polygon(0 0, 60% 0, 36% 100%, 0 100%);
+  }
+  .section1 .item .cover .header-content h2 {
+    font-weight: 300;
+    font-size: 35px;
+    color: #fff;
+  }
+  .section1 .item .cover .header-content h1 {
+    font-size: 56px;
+    font-weight: 600;
+    margin: 5px 0 20px;
+    word-spacing: 3px;
+    color: #fff;
+  }
+  .section1 .item .cover .header-content h4 {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 36px;
+    color: #fff;
+  }
+  .section1 .owl-item.active h1 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+  }
+  .section1 .owl-item.active h2 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+    animation-delay: 0.3s;
+  }
+  .section1 .owl-item.active h4 {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+    animation-delay: 0.3s;
+  }
+  .section1 .owl-item.active .line {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    animation-name: fadeInLeft;
+    animation-delay: 0.3s;
+  }
+  .section1 .owl-nav .owl-prev {
+    position: absolute;
+    left: 15px;
+    top: 43%;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    background: rgba(0, 0, 0, 0.5) !important;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    border-radius: 0;
+  }
+  .section1 .owl-nav .owl-prev span {
+    font-size: 1.6875rem;
+    color: #fff;
+  }
+  .section1 .owl-nav .owl-prev:focus {
+    outline: 0;
+  }
+  .section1 .owl-nav .owl-prev:hover {
+    background: #000 !important;
+  }
+  .section1 .owl-nav .owl-next {
+    position: absolute;
+    right: 15px;
+    top: 43%;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-out;
+    transition: all 0.4s ease-out;
+    background: rgba(0, 0, 0, 0.5) !important;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    border-radius: 0;
+  }
+  .section1 .owl-nav .owl-next span {
+    font-size: 1.6875rem;
+    color: #fff;
+  }
+  .section1 .owl-nav .owl-next:focus {
+    outline: 0;
+  }
+  .section1 .owl-nav .owl-next:hover {
+    background: #000 !important;
+  }
+  .section1:hover .owl-prev {
+    left: 0px;
+    opacity: 1;
+  }
+  .section1:hover .owl-next {
+    right: 0px;
+    opacity: 1;
+  }
+
+  .india-tour{
+    padding: 50px 0 0;
+  }
+  .india-tour .title{
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 30px;
+  }
+  .india-tour h2{
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .tourr .content{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    padding:15px;
+    background: linear-gradient(0deg, black, transparent);
+  }
+  .tourr{
+      position: relative;
+      margin: 15px 0;
+  }
+  .tour-name ul{
+    margin: 0;
+    }
+    .tour-name li{
+        display: inline-block;
+    }
+    .tour-name li h3{
+        font-size: 16px;
+        font-weight: 600;
+    }
+    .tourr:hover .hover-effect{
+        display: block;
+    }
+    .tourr:hover .content{
+        border-bottom: 4px solid #34aaff;
+    }
+    .hover-effect{
+        display: none;
+    }
+    .hover-effect a{
+        color: #34aaff;
+        font-size: 10px;
+        font-weight: 700;
+    }
+
+
+    .testi .title{
+        text-align: center;
+        font-size: 12px;
+        margin-bottom: 30px;
+      }
+      .testi h2{
+        font-size: 22px;
+        font-weight: 800;
+      }
+    .testimonial{
+        padding: 15px;
+        background: #10b5f1;
+        color: #fff;
+    }
+    
+    .testimonial .pic img{ 
+        width: 15%;
+        border-radius: 50%;
+        margin-right: 12px;
+        display: inline-block;
+    }
+    
+    .testimonial .description{
+        font-size: 12px;
+        text-align: left;
+    }
+    
+    .testimonial .testimonial-title{ 
+        font-size: 12px;
+        color: #fff;
+        display: inline-block;
+    }
+    
+    
+    .owl-theme .owl-controls .owl-page span{
+        display: block;
+        width: 12px;
+        height: 12px;
+        border-radius: 20px;
+        background: #f3904d;
+        margin: 5px 7px;
+        opacity: 0.5;
+    }
+
+footer{
+    background:linear-gradient(#00000038,#0fb5f159),url(https://www.wns.com/Portals/0/Images/HeaderBanner/desktop/1087/53/travel_HD.jpg);
+    padding: 10px 0;
+}
+footer .footer-col{
+    color: #fff;
+    font-size: 12px;
+}
+footer .footer-col a{
+    color: #fff;
+}footer h5{
+    color: #00b0f0;
+    font-weight: 600;
+    font-size: 14px;
+}
+footer .menu li{
+    display: block;
+}
+
+footer .pack li{
+    display: inline-block;
+    border: 1px solid;
+    margin: 2px 0;
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 5px;
+}
